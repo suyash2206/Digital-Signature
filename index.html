@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Signature</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Digital Signature Creator</h1>
+    <h2>Created by Suyash Mishra</h2>
+
+    <p>Signature Here 
+        <i class="fa-solid fa-hand-point-down"></i>    </p>
+
+    <div class="signature-container">
+        <canvas id="signature-pad" width="600" height="400"></canvas>
+    </div>
+
+    <div class="buttons">
+        <button id="clear-btn">
+            <i class="fa-solid fa-trash"></i>
+            Clear
+        </button>
+        <button id="save-btn">
+            <i class="fa-solid fa-download"></i>
+            Save
+        </button>
+        <a id="download-link" download="signature.png" style="display: none;"></a>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7f6584a3bf.js" crossorigin="anonymous"></script>
+</body>
+</html>
